@@ -2,6 +2,8 @@ import './App.css';
 
 import DropFileInput from './components/drop-file-input/DropFileInput';
 
+import InputFields from "./components/InputFields"
+
 function App() {
 
     const onFileChange = (files) => {
@@ -16,6 +18,7 @@ function App() {
             <DropFileInput
                 onFileChange={(files) => onFileChange(files)}
             />
+            <InputFields />
         </div>
     );
 }
