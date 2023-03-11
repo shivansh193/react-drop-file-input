@@ -14,7 +14,8 @@ function App() {
             <h2 className="header">
                 React drop files input
             </h2>
-            <FormFIelds />
+            <div><FormFIelds /></div>
+            
             <DropFileInput
                 onFileChange={(files) => onFileChange(files)}
             />
